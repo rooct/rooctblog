@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[7],{1213:function(o){o.exports=JSON.parse('{"allTagsPath":"/rooctblog/blog/tags","slug":"/rooctblog/blog/tags/facebook","name":"facebook","count":1,"permalink":"/rooctblog/blog/tags/facebook"}')}}]);
