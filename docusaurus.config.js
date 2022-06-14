@@ -7,12 +7,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   title: 'My Site',
   tagline: 'Dinosaurs are cool',
   url: 'https://rooct.github.io',
-  baseUrl: '/',
+  baseUrl: '/rooctblog/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'rooct', // Usually your GitHub org/user name.
+  projectName: 'rooctblog', // Usually your repo name.
 
   presets: [
     [
