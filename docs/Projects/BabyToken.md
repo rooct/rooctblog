@@ -4,6 +4,11 @@ version: 0.8.0
 description: BabyToken
 ---
 
+**特点**
+* 交易分红
+* 邀请分红
+* lp分红
+* 自动添加流动池
 
 ```
 /**

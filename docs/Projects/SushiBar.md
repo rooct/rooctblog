@@ -4,6 +4,9 @@ version: 0.6.0
 description: SushiBar
 ---
 
+***特点**
+* 质押享受分红
+* 根据持有份额加权均分池子收益
 
 ```solidity
 /**

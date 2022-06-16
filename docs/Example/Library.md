@@ -4,6 +4,8 @@ version: 0.8.10
 description: Example of how to write and use libraries in your Solidity code
 ---
 
+- using 工具库 for type
+
 Libraries are similar to contracts, but you can't declare any state variable and
 you can't send ether.
 

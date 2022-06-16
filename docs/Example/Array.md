@@ -4,6 +4,9 @@ version: 0.8.10
 description: Learn about arrays in Solidity
 ---
 
+> 要求顺序 移除方法： 循环从指定下标开始至length-1，往前移动，pop最后一个
+> 不要求顺序 移除方法：最后一个元素覆盖要删除的元素，pop最后一个
+
 Array can have a compile-time fixed size or a dynamic size.
 
 ```solidity

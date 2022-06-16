@@ -11,7 +11,7 @@ ERC20 tokens provide functionalities to
 - transfer tokens
 - allow others to transfer tokens on behalf of the token holder
 
-Here is the interface for ERC20.
+### Here is the interface for ERC20.
 @import IERC20 from './IERC20.sol'
 ```solidity
 // SPDX-License-Identifier: MIT
@@ -41,7 +41,7 @@ interface IERC20 {
 
 ```
 
-Example of `ERC20` token contract.
+### Example of `ERC20` token contract.
 
 ```solidity
 // SPDX-License-Identifier: MIT
@@ -101,7 +101,7 @@ contract ERC20 is IERC20 {
 
 Using <a href="https://github.com/OpenZeppelin/openzeppelin-contracts" target="__blank">Open Zeppelin</a> it's really easy to create your own ERC20 token.
 
-Here is an example
+### Here is an example
 
 ```solidity
 // SPDX-License-Identifier: MIT
@@ -121,7 +121,7 @@ contract MyToken is ERC20 {
 
 ```
 
-## Contract to swap tokens
+### Contract to swap tokens
 
 Here is an example contract, `TokenSwap`, to trade one ERC20 token for another.
 

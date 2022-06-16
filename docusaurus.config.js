@@ -46,16 +46,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             position: 'left',
             label: 'Solidity',
           },
+          // {
+          //   href: 'https://hardhat.org/getting-started',
+          //   label: 'Hardhat',
+          //   position: 'left',
+          // },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             type: 'search',
             position: 'right',
-          },
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
+          }
         ],
       },
       footer: {

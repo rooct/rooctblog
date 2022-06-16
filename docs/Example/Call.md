@@ -4,6 +4,11 @@ version: 0.8.10
 description: In Solidity call is a low level function to interact with other contracts
 ---
 
+*Call调用方法*
+- (bool success, bytes memory data) = _addr.call{value: 1}(abi.encodeWithSignature("foo(string)", "abc"))
+- 判断success是否true，否则调用失败
+- 通过call方法调用不存在的函数，会促发fallback函数
+
 `call` is a low level function to interact with other contracts.
 
 This is the recommended method to use when you're just sending Ether via calling the `fallback` function.
@@ -38,7 +43,7 @@ contract Caller {
         (bool success, bytes memory data) = _addr.call{value: msg.value, gas: 5000}(
             abi.encodeWithSignature("foo(string,uint256)", "call foo", 123)
         );
-
+        require(success,"Call Fail");
         emit Response(success, data);
     }
 
@@ -47,7 +52,7 @@ contract Caller {
         (bool success, bytes memory data) = _addr.call(
             abi.encodeWithSignature("doesNotExist()")
         );
-
+        require(success,"Call Fail");
         emit Response(success, data);
     }
 }

@@ -4,6 +4,12 @@ version: 0.8.10
 description: Example of hashing using Keccak256 in Solidity
 ---
 
+
+***
+ethers.js   -> ethers.utils.solidityKeccak256(["string","uint256","address"],[_text,_num,_addr])
+ethers.utils.arrayify(hash)
+***
+
 `keccak256` computes the Keccak-256 hash of the input.
 
 Some use cases are:
@@ -22,6 +28,7 @@ contract HashFunction {
         uint _num,
         address _addr
     ) public pure returns (bytes32) {
+        
         return keccak256(abi.encodePacked(_text, _num, _addr));
     }
 

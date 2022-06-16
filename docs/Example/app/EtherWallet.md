@@ -4,6 +4,16 @@ version: 0.8.10
 description: Simple example of wallet in Solidity
 ---
 
+
+- 设置回调函数receive ，而不设置fallback函数，意思是任何人发送不存在的函数时报错，除非向合约发送主币,
+- payable 为可支持主币，发送或接收需payable
+  
+*发送交易方法*
+- transfer(uint) 消耗指定的gas
+- send(uint) -> (bool,bytes) 
+- call{value:amount}("") -> (bool,bytes)
+
+
 An example of a basic wallet.
 
 - Anyone can send ETH.
