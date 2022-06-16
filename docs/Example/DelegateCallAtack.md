@@ -1,5 +1,5 @@
 ---
-title: Delegatecall
+title: DelegatecallAttack
 version: 0.8.10
 description: An example of exploits using delegatecall in Solidity
 ---

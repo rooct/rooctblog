@@ -4,8 +4,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 // With JSDoc @type annotations, IDEs can provide config autocompletion
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Develop Site',
+  tagline: 'Solidity Are Cool',
   url: 'https://rooct.github.io',
   baseUrl: '/rooctblog/',
   onBrokenLinks: 'throw',
@@ -34,9 +34,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Dev Site',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Dev Site Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -62,11 +62,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Solidity',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'HelloWorld',
+                to: '/docs/Example/Helloworld',
               },
             ],
           },
@@ -75,16 +75,17 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             items: [
               {
                 label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
+                href: '/',
+              }
+            ],
+          },
+          {
+            title: 'Feature',
+            items: [
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
+                label: 'Feature',
+                href: '/',
+              }
             ],
           },
           {
@@ -96,12 +97,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: '/',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} dev site, Inc. Built with dev.`,
       },
       prism: {
         theme: lightCodeTheme,
