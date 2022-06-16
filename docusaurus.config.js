@@ -24,11 +24,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
         },
-        frontend: {
-          sidebarPath: require.resolve('./sidebarsFrontend.js'),
-          // Please change this to your repo.
-          // editUrl: "https://github.com/vouchpanel/vouchpanel-site/edit/main/",
-        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
