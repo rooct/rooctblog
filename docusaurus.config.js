@@ -1,3 +1,4 @@
+const path = require('path');
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
@@ -23,11 +24,31 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
         },
+        frontend: {
+          sidebarPath: require.resolve('./sidebarsFrontend.js'),
+          // Please change this to your repo.
+          // editUrl: "https://github.com/vouchpanel/vouchpanel-site/edit/main/",
+        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
       }),
     ],
+  ],
+  plugins: [
+    'docusaurus-plugin-sass',
+    [
+      'docusaurus-plugin-module-alias',
+      {
+        alias: {
+          'styled-components': path.resolve(__dirname, './node_modules/styled-components'),
+          react: path.resolve(__dirname, './node_modules/react'),
+          'react-dom': path.resolve(__dirname, './node_modules/react-dom'),
+          '@components': path.resolve(__dirname, './src/components'),
+        },
+      },
+    ],
+    'docusaurus-tailwindcss'
   ],
 
   themeConfig:
@@ -46,6 +67,24 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             position: 'left',
             label: 'Solidity',
           },
+          {
+            type: 'doc',
+            docId: 'frontend',
+            position: 'left',
+            label: 'Frontend',
+          },
+          // {
+          //   to: "docs/intro",
+          //   activeBasePath: "docs",
+          //   label: "Solidity",
+          //   position: "left",
+          // },
+          // {
+          //   to: "frontend/intro",
+          //   activeBasePath: "frontend",
+          //   label: "Frontend",
+          //   position: "left",
+          // },
           // {
           //   href: 'https://hardhat.org/getting-started',
           //   label: 'Hardhat',
