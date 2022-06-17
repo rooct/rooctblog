@@ -4,6 +4,10 @@ version: 0.8.10
 description: An example of Dutch auction in Solidity
 ---
 
+**荷兰拍卖**
+- 起拍价开始，随着时间流逝，价格越来越低，
+- 来源于郁金香，拍卖周期短，倒计时，价格逐渐降低，直到有人举牌，拍卖成功
+
 Dutch auction for NFT.
 
 ### Auction

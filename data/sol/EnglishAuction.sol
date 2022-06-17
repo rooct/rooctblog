@@ -21,11 +21,11 @@ contract EnglishAuction {
     event Withdraw(address indexed bidder, uint amount);
     event End(address winner, uint amount);
 
-    IERC721 public nft;
-    uint public nftId;
+    IERC721 public immutable nft;
+    uint public immutable nftId;
 
-    address payable public seller;
-    uint public endAt;
+    address payable public immutable seller;
+    uint32 public endAt;
     bool public started;
     bool public ended;
 
@@ -49,10 +49,11 @@ contract EnglishAuction {
         require(!started, "started");
         require(msg.sender == seller, "not seller");
 
-        nft.transferFrom(msg.sender, address(this), nftId);
         started = true;
-        endAt = block.timestamp + 7 days;
+        endAt = uint32(block.timestamp + 7 days);
 
+        nft.transferFrom(msg.sender, address(this), nftId);
+        
         emit Start();
     }
 

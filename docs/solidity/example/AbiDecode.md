@@ -4,6 +4,8 @@ version: 0.8.10
 description: ABI decode bytes
 ---
 
+- struct结构体其实是一种多维的数组，remix传参数使用[]
+
 `abi.encode` encodes data into `bytes`.
 
 `abi.decode` decodes `bytes` back into data.

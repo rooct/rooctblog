@@ -64,9 +64,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           },
           {
             type: 'doc',
-            docId: 'frontend',
+            docId: 'evm',
             position: 'left',
-            label: 'Frontend',
+            label: 'EVM',
           },
           // {
           //   to: "docs/intro",
@@ -85,7 +85,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           //   label: 'Hardhat',
           //   position: 'left',
           // },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          // {to: '/blog', label: 'Blog', position: 'left'},
           {
             type: 'search',
             position: 'right',

@@ -23,7 +23,7 @@ module.exports = {
       type: 'category',
       label: 'Api',
       collapsed: false,
-      items: ['api/Address', 'api/BlockTx', 'api/Contract', 'api/Crypto', 'api/Error',],
+      items: ['solidity/api/Address', 'solidity/api/BlockTx', 'solidity/api/Contract', 'solidity/api/Crypto', 'solidity/api/Error',],
     },
     {
       type: 'category',
@@ -33,51 +33,51 @@ module.exports = {
         type: 'category',
         label: 'App',
         collapsed: false,
-        items: ["example/app/BiDirectionalPaymentChannel", "example/app/Create2", "example/app/CrowdFund", "example/app/DutchAuction", "example/app/EnglishAuction", "example/app/Erc20", "example/app/Erc721", "example/app/EtherWallet", "example/app/IterableMapping", "example/app/MerkleTree", "example/app/MinimalProxy", "example/app/MultiDelegatecall", "example/app/Muticall", "example/app/MutiSignWallet", "example/app/Proxy", "example/app/Slot", "example/app/UniDirectionalPaymentChannel", "example/app/UpgradeableProxy"]
+        items: ["solidity/example/app/BiDirectionalPaymentChannel", "solidity/example/app/Create2", "solidity/example/app/CrowdFund", "solidity/example/app/DutchAuction", "solidity/example/app/EnglishAuction", "solidity/example/app/Erc20", "solidity/example/app/Erc721", "solidity/example/app/EtherWallet", "solidity/example/app/IterableMapping", "solidity/example/app/MerkleTree", "solidity/example/app/MinimalProxy", "solidity/example/app/MultiDelegatecall", "solidity/example/app/Muticall", "solidity/example/app/MutiSignWallet", "solidity/example/app/Proxy", "solidity/example/app/Slot", "solidity/example/app/UniDirectionalPaymentChannel", "solidity/example/app/UpgradeableProxy"]
       },
       {
         type: 'category',
         label: 'Defi',
         collapsed: false,
-        items: ["example/defi/Chainlink", "example/defi/CPAMM", "example/defi/CSamm", "example/defi/Liquidity", "example/defi/Optimal", "example/defi/StakingRewards", "example/defi/Swap"]
+        items: ["solidity/example/defi/Chainlink", "solidity/example/defi/CPAMM", "solidity/example/defi/CSamm", "solidity/example/defi/Liquidity", "solidity/example/defi/Optimal", "solidity/example/defi/StakingRewards", "solidity/example/defi/Swap"]
       },
       {
         type: 'category',
         label: 'Practice',
         collapsed: false,
-        items:["example/practice/PiggyBank"]
+        items:["solidity/example/practice/PiggyBank"]
       },
-        "example/AbiDecode", "example/AccountFactory",
-        "example/Array", "example/BlockTimesatmp",
-        "example/Call", "example/CallingContract", "example/Constants",
-        "example/Constructor", "example/ContractSize", "example/Counter",
-        "example/DataLocations", "example/Delegatecall", "example/DelegateCallAtack",
-        "example/DenialOfSevice", "example/Echidna", "example/Enum", "example/Error",
-        "example/EtherUnits", "example/Events", "example/ExternalContract",
-        "example/Fallback", "example/FrontRunning", "example/Function",
-        "example/FunctionModifier", "example/FunctionSelector", "example/Gas",
-        "example/Hash", "example/Helloworld", "example/HoneyPot",
-        "example/IfElse", "example/Immutable", "example/Import",
-        "example/Inheritance", "example/Interface", "example/Keccak256",
-        "example/Kill", "example/Library", "example/Loop", "example/Mapping",
-        "example/NewContract", "example/NFTMultiMint", "example/Overflow",
-        "example/Payable", "example/Primitives", "example/Randomness",
-        "example/ReEntrancy", "example/SelfDestruct", "example/SendingEther", "example/Shadow",
-        "example/Signature", "example/SignatureReplay", "example/SimpleStorage", "example/Structs",
-        "example/Super", "example/TryCatch", "example/TxOrigin", "example/Variables",
-        "example/Vault", "example/ViewAndPureFunctions", "example/Visibility"],
+        "solidity/example/AbiDecode", "solidity/example/AccountFactory",
+        "solidity/example/Array", "solidity/example/BlockTimesatmp",
+        "solidity/example/Call", "solidity/example/CallingContract", "solidity/example/Constants",
+        "solidity/example/Constructor", "solidity/example/ContractSize", "solidity/example/Counter",
+        "solidity/example/DataLocations", "solidity/example/Delegatecall", "solidity/example/DelegateCallAtack",
+        "solidity/example/DenialOfSevice", "solidity/example/Echidna", "solidity/example/Enum", "solidity/example/Error",
+        "solidity/example/EtherUnits", "solidity/example/Events", "solidity/example/ExternalContract",
+        "solidity/example/Fallback", "solidity/example/FrontRunning", "solidity/example/Function",
+        "solidity/example/FunctionModifier", "solidity/example/FunctionSelector", "solidity/example/Gas",
+        "solidity/example/Hash", "solidity/example/Helloworld", "solidity/example/HoneyPot",
+        "solidity/example/IfElse", "solidity/example/Immutable", "solidity/example/Import",
+        "solidity/example/Inheritance", "solidity/example/Interface", "solidity/example/Keccak256",
+        "solidity/example/Kill", "solidity/example/Library", "solidity/example/Loop", "solidity/example/Mapping",
+        "solidity/example/NewContract", "solidity/example/NFTMultiMint", "solidity/example/Overflow",
+        "solidity/example/Payable", "solidity/example/Primitives", "solidity/example/Randomness",
+        "solidity/example/ReEntrancy", "solidity/example/SelfDestruct", "solidity/example/SendingEther", "solidity/example/Shadow",
+        "solidity/example/Signature", "solidity/example/SignatureReplay", "solidity/example/SimpleStorage", "solidity/example/Structs",
+        "solidity/example/Super", "solidity/example/TryCatch", "solidity/example/TxOrigin", "solidity/example/Variables",
+        "solidity/example/Vault", "solidity/example/ViewAndPureFunctions", "solidity/example/Visibility"],
     },
     {
       type: 'category',
         label: 'Projects',
         collapsed: false,
-      items:["projects/BabyToken","projects/Five","projects/MasterChef","projects/SushiBar"]
+      items:["solidity/projects/BabyToken","solidity/projects/Five","solidity/projects/MasterChef","solidity/projects/SushiBar"]
     },
     {
       type: 'category',
         label: 'Utils',
         collapsed: false,
-      items:["utils/Verify"]
+      items:["solidity/utils/Verify"]
     }
     
   ],
@@ -88,6 +88,14 @@ module.exports = {
       label: 'Getting Start',
       collapsed: false,
       items: ['frontend'],
+    },
+  ],
+  evm: [
+    {
+      type: 'category',
+      label: 'Introduction',
+      collapsed: false,
+      items: ['evm'],
     },
   ],
   // docs: [
