@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[2535],{5641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\u53ef\u5347\u7ea7\u7684\u667a\u80fd\u5408\u7ea6\u8bbe\u8ba1\u6a21\u5f0f","permalink":"/rooctblog/blog/updatable"}]}')}}]);

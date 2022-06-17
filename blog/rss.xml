@@ -4,36 +4,15 @@
         <title>Develop Site Blog</title>
         <link>https://rooct.github.io/rooctblog/blog</link>
         <description>Develop Site Blog</description>
-        <lastBuildDate>Thu, 26 Aug 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 17 Jun 2022 07:15:39 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Welcome]]></title>
-            <link>https://rooct.github.io/rooctblog/blog/welcome</link>
-            <guid>welcome</guid>
-            <pubDate>Thu, 26 Aug 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[MDX Blog Post]]></title>
-            <link>https://rooct.github.io/rooctblog/blog/mdx-blog-post</link>
-            <guid>mdx-blog-post</guid>
-            <pubDate>Sun, 01 Aug 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Long Blog Post]]></title>
-            <link>https://rooct.github.io/rooctblog/blog/long-blog-post</link>
-            <guid>long-blog-post</guid>
-            <pubDate>Wed, 29 May 2019 00:00:00 GMT</pubDate>
-            <description><![CDATA[This is the summary of a very long blog post,]]></description>
-        </item>
-        <item>
-            <title><![CDATA[First Blog Post]]></title>
-            <link>https://rooct.github.io/rooctblog/blog/first-blog-post</link>
-            <guid>first-blog-post</guid>
-            <pubDate>Tue, 28 May 2019 00:00:00 GMT</pubDate>
-            <description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></description>
+            <title><![CDATA[可升级的智能合约设计模式]]></title>
+            <link>https://rooct.github.io/rooctblog/blog/updatable</link>
+            <guid>可升级的智能合约设计模式</guid>
+            <pubDate>Fri, 17 Jun 2022 07:15:39 GMT</pubDate>
+            <description><![CDATA[可升级的智能合约设计模式]]></description>
         </item>
     </channel>
 </rss>
