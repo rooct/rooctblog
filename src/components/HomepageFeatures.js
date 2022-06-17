@@ -58,6 +58,7 @@ export default function HomepageFeatures() {
             <Feature key={idx} {...props} />
           ))}
         </div> */}
+        <img width="60%" src={require('../../static/img/blockchain.jpg').default}/>
       </div>
     </section>
   );

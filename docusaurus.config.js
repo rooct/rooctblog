@@ -24,6 +24,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
         },
+        // dapp: {
+        //   sidebarPath: require.resolve('./sidebarsdapp.js'),
+        //   // Please change this to your repo.
+        // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -68,6 +72,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             position: 'left',
             label: 'EVM',
           },
+          {
+            type: 'doc',
+            docId: 'dapp',
+            position: 'left',
+            label: 'Dapps',
+          },
           // {
           //   to: "docs/intro",
           //   activeBasePath: "docs",
@@ -85,7 +95,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           //   label: 'Hardhat',
           //   position: 'left',
           // },
-          // {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'Blog', position: 'left'},
           {
             type: 'search',
             position: 'right',
