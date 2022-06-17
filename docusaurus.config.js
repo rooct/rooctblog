@@ -100,7 +100,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             items: [
               {
                 label: 'HelloWorld',
-                to: '/docs/Example/Helloworld',
+                to: '/docs/solidity/example/Helloworld',
               },
             ],
           },
