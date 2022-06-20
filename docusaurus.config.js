@@ -78,6 +78,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             position: 'left',
             label: 'Dapps',
           },
+          {
+            type: 'doc',
+            docId: 'devtool',
+            position: 'left',
+            label: 'DevTools',
+          },
           // {
           //   to: "docs/intro",
           //   activeBasePath: "docs",
