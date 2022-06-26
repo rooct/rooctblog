@@ -24,6 +24,10 @@ import ItemCards from '@components/ItemCards';
 4. [地址相关](/docs/solidity/api/Address)
 5. [合约相关](/docs/solidity/api/Contract)
 
+### 价格api
+[https://bitpay.com/rates](https://bitpay.com/rates) （需要翻墙）
+[价格1 https://dncapi.fxhapp.com/api/coin/web-coinrank?page=1&type=-1&pagesize=100](https://dncapi.fxhapp.com/api/coin/web-coinrank?page=1&type=-1&pagesize=100)
+
 ### solidity例子
 <ItemCards>
 <ItemCard href="solidity/example/Helloworld">
