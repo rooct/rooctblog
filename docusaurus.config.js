@@ -84,6 +84,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             position: 'left',
             label: 'DevTools',
           },
+          {
+            type: 'doc',
+            docId: 'daily',
+            position: 'left',
+            label: 'DailyTech',
+          },
           // {
           //   to: "docs/intro",
           //   activeBasePath: "docs",
