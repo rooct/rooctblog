@@ -90,6 +90,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             position: 'left',
             label: 'DailyTech',
           },
+          {
+            type: 'doc',
+            docId: 'rust',
+            position: 'left',
+            label: 'Rust',
+          },
           // {
           //   to: "docs/intro",
           //   activeBasePath: "docs",
